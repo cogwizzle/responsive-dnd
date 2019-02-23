@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render 1`] = `
+<div
+  className="text"
+>
+  <input
+    className="text__input "
+    type="text"
+  />
+</div>
+`;

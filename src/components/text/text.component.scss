@@ -1,0 +1,28 @@
+.text {
+  color: #585858;
+  display: flex;
+  flex-direction: column;
+
+  &__input {
+    color: black;
+    border: none;
+    border-bottom: 1px solid 	#585858;
+    flex: 2;
+    padding: 0px 5px;
+
+    &:focus {
+      border-bottom: 1px solid 	#2980B9;
+      outline: none;
+    }
+  }
+
+  &__label {
+    font-size: 14px;
+    flex: 1;
+    margin-left: 5px;
+  }
+
+  &:focus-within {
+    color: #2980B9;
+  }
+}
